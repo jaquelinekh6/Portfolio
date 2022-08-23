@@ -1,0 +1,83 @@
+html, body
+{
+    width: 100%;  
+    height: 100%;  
+    margin: 0;  
+    padding: 0;  
+    /*background: url(backgroundPortafolio.jpg);*/
+    background-size: cover;
+}/*
+.background
+{
+    position: fixed;
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    left: 0px;
+    top: 0px;
+
+    background: radial-gradient(58.38% 58.38% at 50% 50%, rgba(30, 30, 31, 0.65) 0%, #1F1F1F 100%);
+}
+.loader
+{
+    margin: auto;
+    position: absolute;
+    right: 100px;
+    left: 100px;
+    top: 100px;
+    bottom: 100px;
+    border-radius: 50%;
+    z-index: 1;
+   
+}
+.circle
+{
+    width: 300px;
+    height: 300px;
+    background: #FFFFFF;
+}
+.wave
+{
+    width: 351px;
+    height: 351px;
+    
+    
+    
+    border-style: solid;
+    border-image: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(255, 181, 93, 0) 100%);
+    
+    border-image-slice: 1;
+    
+}
+.wave:nth-child(2)
+{
+    width: 406px;
+    height: 406px;
+    border: 20px #FFFFFF;
+    background: transparent;
+}
+
+.wave {
+    
+    border: 6px solid transparent;
+    border-radius: 50%;
+    background: 
+      linear-gradient(to right, white, white), 
+      linear-gradient(to right, red , blue); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    
+    
+    width: 380px;
+    height: 380px;
+    padding: 12px;
+  }*/
+  .h {
+    width: 300px;
+    height: 80px;
+    border: double 4px transparent;
+    border-radius: 80px;
+    background-image: linear-gradient(rgb(178, 0, 0), white), radial-gradient(circle at top left, #f00,#3020ff);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+  }
